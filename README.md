@@ -43,15 +43,15 @@ dcavp analyze ./my_project --tier RED
 # Verify the platform itself
 dcavp verify
 What makes DCAVP different?
-Capability	DCAVP	Bandit	Snyk	SonarQube
-Deterministic results	✅ Always	✅ Yes	❌ No	❌ No
-Self-verification	✅ 6/6 gates	❌ No	❌ No	❌ No
-Admits analysis failure	✅ ANALYSIS VACUUM	❌ No	❌ No	❌ No
-Proof Certificate	✅ Cryptographically verifiable	❌ No	❌ No	❌ No
-Tiered governance	✅ 4 tiers	❌ No	❌ No	❌ No
-Cross-platform	✅ Win/Lin/Mac	✅ Yes	✅ Yes	✅ Yes
-Zero dependencies	✅ Stdlib only	✅ Yes	❌ API	❌ Server
-HTML reports	✅ Standalone	❌ No	✅ Yes	✅ Yes
+Capability	                DCAVP	                           Bandit        	Snyk    	    SonarQube
+Deterministic results	      ✅ Always	                        ✅ Yes	        ❌ No	       ❌ No
+Self-verification	          ✅ 6/6 gates	                    ❌ No	        ❌ No	       ❌ No
+Admits analysis failure	    ✅ ANALYSIS VACUUM	              ❌ No	          ❌ No	         ❌ No
+Proof Certificate	          ✅ Cryptographically verifiable	❌ No	        ❌ No	       ❌ No
+Tiered governance	          ✅ 4 tiers	                      ❌ No	          ❌ No         ❌ No
+Cross-platform	            ✅ Win/Lin/Mac	                  ✅ Yes	        ✅ Yes	       ✅ Yes
+Zero dependencies	          ✅ Stdlib only                  	✅ Yes	        ❌ API	       ❌ Server
+HTML reports	              ✅ Standalone	                    ❌ No	        ✅ Yes	       ✅ Yes
 The Four Tiers
 DCAVP offers four analysis tiers. Each tier unlocks deeper analysis — and produces reports tailored to its audience.
 
